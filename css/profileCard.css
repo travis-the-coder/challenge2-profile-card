@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background-color: teal;
+
+
+}
+
+p{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: grey;
+    transform: translateY(-35px);
+}
+
+
+
+table{
+    border-top: 2px solid lightgrey;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: auto;
+}
+
+
+td {
+    width: 33.33%;
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    transform: translateY(20px);
+}
+
+
+.nvalues{
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    font-size: small;
+}
+
+
+
+
+
+
+.name{
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+
+
+
+
+.profileCard {
+ 
+display: block;
+margin: 0px auto;
+background-color: azure;
+text-align: center;
+
+height: 400px;
+width: 375px;
+border-radius: 4%;
+
+
+}
+
+
+#profileBG{
+     border-top-right-radius: 4%; 
+     border-top-left-radius: 4%;
+    
+    width: 100%;
+}
+
+#profileP{
+    border-radius: 50%;
+    border: 5px solid white;
+    transform: translateY(-55px);
+
+    
+}
+
+
+@media (min-width:375px){
+    /* Mobile view */
+    body{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+
+    table{
+            border-top: 2px solid lightgrey;
+            width: 100%;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .profileCard {
+            background-color: azure;
+            text-align: center;
+            
+            height: auto;
+            width: 375px;
+            border-radius: 4%;
+            
+            
+            }
+
+    
+}  
+
+@media (max-width: 1440px){
+    /* Desktop view */
+
+    .profileCard {
+ 
+        display: block;
+        margin: 0px auto;
+        background-color: azure;
+        text-align: center;
+        
+        height: 400px;
+        width: 375px;
+        border-radius: 4%;
+        
+        
+        }
+}
